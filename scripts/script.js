@@ -1,5 +1,5 @@
 (function() {
-  d3.xml('worldmap.svg').mimeType('image/svg+xml').get(function(error, xml) {
+  d3.xml('./assets/worldmap.svg').mimeType('image/svg+xml').get(function(error, xml) {
     document.querySelector('#svg').appendChild(xml.documentElement);
 
     d3.selectAll('path').each(function() {
