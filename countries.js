@@ -12,6 +12,9 @@ countries = [
   "monaco",
   "switzerland",
   "emirates",
+  "maldives",
+  "egypt",
+  "turkey",
 ];
 
 countriesSigla =
