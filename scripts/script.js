@@ -30,7 +30,7 @@
 
     function donnutChart() {
       var dataset = {
-        apples: [countries.length, 193 - countries.length],
+        apples: [countries.length, 195 - countries.length],
       };
 
       var width = 460,
